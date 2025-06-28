@@ -44,11 +44,11 @@ This project demonstrates an end-to-end emotion recognition system:
 
 - `utils.py`: Contains utility function.
 
-### Training:
+### Training & Evaluation: 
 
 - `train.py`: Compiles and trains the model using categorical cross-entropy and class weights to handle imbalances. Includes callbacks for early stopping and learning rate reduction.
 
-### Real-Time Detection:
+### Real‑Time Inferencing:
 
 - `detect.py`: Loads the trained model and uses live webcam input to perform real-time emotion classification. ***Optionally draws holistic landmarks on the frame***.
 
