@@ -113,7 +113,6 @@ def collect_data(args):
                             f, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL
                         )
                         csv_writer.writerow(row)
-                        print(len(row))
 
                 except: 
                     pass
